@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="ff(failed)">
+    <parameter name="browser2" value="firefox"/>
+    <classes>
+      <class name="pack1.Test1">
+        <methods>
+          <include name="open_url"/>
+          <include name="tear_down"/>
+          <include name="setup"/>
+          <include name="type_data"/>
+        </methods>
+      </class> <!-- pack1.Test1 -->
+    </classes>
+  </test> <!-- ff(failed) -->
+</suite> <!-- Failed suite [Suite] -->

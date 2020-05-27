@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ 
+  <test name="Test">
+  <parameters>
+  <parameter name="browser" value="chrome"></parameter>
+ 
+  </parameters>
+    <classes>
+      <class name="pack1.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="ff">
+  <parameters>
+  <parameter name="browser" value="firefox" ></parameter>
+  </parameters>
+    <classes>
+      <class name="pack1.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->

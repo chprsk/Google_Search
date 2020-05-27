@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105199" started-at="2019-11-13T14:48:16Z" finished-at="2019-11-13T14:50:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42664" started-at="2019-11-13T14:48:16Z" finished-at="2019-11-13T14:48:58Z">
+      <class name="pack1.Test1">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:pack1.Test1@43814d18]" name="setup" is-config="true" duration-ms="19125" started-at="2019-11-13T14:48:16Z" finished-at="2019-11-13T14:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35b74c5c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open_url()[pri:1, instance:pack1.Test1@43814d18]" name="open_url" duration-ms="8152" started-at="2019-11-13T14:48:35Z" finished-at="2019-11-13T14:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method status="PASS" signature="type_data()[pri:0, instance:pack1.Test1@43814d18]" name="type_data" duration-ms="13919" started-at="2019-11-13T14:48:43Z" depends-on-methods="pack1.Test1.open_url" finished-at="2019-11-13T14:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type_data -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:pack1.Test1@43814d18]" name="tear_down" duration-ms="1397" started-at="2019-11-13T14:48:57Z" depends-on-methods="pack1.Test1.type_data" finished-at="2019-11-13T14:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- pack1.Test1 -->
+    </test> <!-- Test -->
+    <test name="ff" duration-ms="62451" started-at="2019-11-13T14:48:58Z" finished-at="2019-11-13T14:50:01Z">
+      <class name="pack1.Test1">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:pack1.Test1@5e853265]" name="setup" is-config="true" duration-ms="31494" started-at="2019-11-13T14:48:58Z" finished-at="2019-11-13T14:49:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e570ded]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open_url()[pri:1, instance:pack1.Test1@5e853265]" name="open_url" duration-ms="11482" started-at="2019-11-13T14:49:30Z" finished-at="2019-11-13T14:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method status="PASS" signature="type_data()[pri:0, instance:pack1.Test1@5e853265]" name="type_data" duration-ms="6725" started-at="2019-11-13T14:49:41Z" depends-on-methods="pack1.Test1.open_url" finished-at="2019-11-13T14:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type_data -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:pack1.Test1@5e853265]" name="tear_down" duration-ms="12740" started-at="2019-11-13T14:49:48Z" depends-on-methods="pack1.Test1.type_data" finished-at="2019-11-13T14:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- pack1.Test1 -->
+    </test> <!-- ff -->
+  </suite> <!-- Suite -->
+</testng-results>
